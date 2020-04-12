@@ -1,0 +1,6 @@
+{
+  "statement": "SELECT * FROM users WHERE username = :username",
+  "command": "prepare",
+  "parameters": ["username"],
+  "authors": ["Grant Anderson"]
+}
